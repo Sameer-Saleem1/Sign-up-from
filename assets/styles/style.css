@@ -214,27 +214,14 @@ p{
   font-weight: 400;
 }
 
-
-.container {
-    width: 100%;
-    margin: 0 auto;
-  }
-
-  .column-left, .column-right {
-    display:inline-block ;
-    max-width: 50%;
-    float: left;
-  }
-  
-
-  .column-left img {
+  .col-sm img {
     max-width: 100%;
     height: 100%;
     margin-left: 0; 
     float: left;
   }
 
-  .column-left .Pisocial{
+  .Pisocial{
             font-family: cassadio;
             font-size: 42px;
             font-weight: 400;
@@ -402,7 +389,7 @@ p{
     font-size: 12px;
 }
   @media (max-width: 768px) {
-    .column-left, .column-right {
+    .col-sm{
       width: 100%;
       float: none;
     }
@@ -582,7 +569,7 @@ p{
   font-size: 12px;
 }
 @media (max-width: 768px) {
-  .column-left, .column-right {
+  .col-sm{
     width: 100%;
     float: none;
   }
